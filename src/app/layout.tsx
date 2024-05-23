@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} flex justify-center min-h-screen text-gray-900 m-5 lg:m-12`}
+        className={`${inter.className} flex justify-center min-h-screen min-w-[320px] text-gray-900 m-5 lg:m-12 bg-no-repeat`}
       >
         {children}
         <Toaster />
