@@ -1,0 +1,56 @@
+.right-side {
+  flex-basis: calc(55% - 2rem);
+  width: calc(55% - 2rem);
+}
+
+@media screen and (max-width: 850px) {
+  .right-side {
+    flex-basis: 0 0 100%;
+    width: 100%;
+  }
+}
+
+.svg {
+  animation: rotate 2s linaer infinite;
+}
+
+.circle {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -50%;
+  bottom: -50%;
+  width: 1rem;
+  transform: translate3d(-600%, 0, 0) rotate(35deg);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.button:hover::after {
+  transform: translate3d(200%, 0, 0) rotate(35deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dashoffset: -125px;
+  }
+}

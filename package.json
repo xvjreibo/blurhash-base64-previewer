@@ -1,5 +1,5 @@
 {
-  "name": "next-image-blurhash-base64-generator",
+  "name": "blurhash-base64-previewer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "blurhash": "^2.0.5",
+    "blurhash-base64": "^0.0.3",
+    "copy-to-clipboard": "^3.3.3",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "string-byte-length": "^3.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "typescript": "^5"
   }
 }

@@ -1,0 +1,7 @@
+.container:hover .content {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
