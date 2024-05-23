@@ -19,7 +19,10 @@ export default function Home() {
             <span>Next.js Image BlurHash Previewer</span>
           </h1>
         </a>
-        <a href="">
+        <a
+          href="https://github.com/xvjreibo/blurhash-base64-previewer"
+          target="_blank"
+        >
           <svg
             className="w-7"
             xmlns="http://www.w3.org/2000/svg"
