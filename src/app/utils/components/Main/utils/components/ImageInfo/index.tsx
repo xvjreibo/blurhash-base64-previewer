@@ -27,18 +27,18 @@ export default function ImageInfo() {
           <a
             className="underline"
             target="_blank"
-            href="https://www.npmjs.com/package/blurhash-base64"
+            href="https://github.com/woltapp/blurhash/tree/master/TypeScript"
           >
-            Here&apos;s the library I used to generate the Base64 image.
+            Here&apos;s the BlurHash library.
           </a>
         </p>
         <p>
           <a
             className="underline"
             target="_blank"
-            href="https://www.npmjs.com/package/blurhash"
+            href="https://github.com/mcnaveen/blurhash-base64"
           >
-            Here&apos;s the original BlurHash library.
+            Here&apos;s the library I used to generate the Base64 image.
           </a>
         </p>
       </div>
